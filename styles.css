@@ -166,6 +166,33 @@ header {
   z-index: 2;
   margin-top: 20px;	
 }
+.Image_10 {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  width: 400px;
+  height: 200px;
+  z-index: 2;
+  margin-top: 20px;	
+}
+.Image_11 {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  width: 400px;
+  height: 200px;
+  z-index: 2;
+  margin-top: 20px;	
+}
+.Image_12 {
+  position: absolute;
+  top: 75%;
+  left: 30%;
+  width: 400px;
+  height: 200px;
+  z-index: 2;
+  margin-top: 20px;	
+}
 
 .navbar {
   width: 100%;
