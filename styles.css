@@ -37,7 +37,7 @@ header {
   height: 150px;
 }
 
-.PlaceHolder1 {
+.Image_1 {
   position: absolute;
   top: 55%;
   left: 90%;
@@ -47,7 +47,7 @@ header {
   margin-top: 20px;
 }
 
-.PlaceHolder2 {
+.Image_2 {
   position: absolute;
   top: 65%;
   left: 90%;
@@ -57,7 +57,7 @@ header {
   margin-top: 20px;
 }
 
-.PlaceHolder3 {
+.Image_3 {
   position: absolute;
   top: 75%;
   left: 90%;
@@ -66,7 +66,7 @@ header {
   z-index: 2;
   margin-top: 20px;
 }
-.PlaceHolder4 {
+.Image_4 {
   position: absolute;
   top: 75%;
   left: 30%;
@@ -76,7 +76,7 @@ header {
   margin-top: 20px;
 }
 
-.PlaceHolder5 {
+.Image_5 {
   position: absolute;
   top: 75%;
   left: 50%;
@@ -85,7 +85,7 @@ header {
   z-index: 2;
   margin-top: 20px;
 }
-.PlaceHolder6 {
+.Image_6 {
   position: absolute;
   top: 75%;
   left: 70%;
@@ -94,6 +94,34 @@ header {
   z-index: 2;
   margin-top: 20px;	
 }
+.Image_7 {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  margin-top: 20px;	
+}
+.Image_8 {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  margin-top: 20px;	
+}
+.Image_9 {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  width: 50px;
+  height: 50px;
+  z-index: 2;
+  margin-top: 20px;	
+}
+
 .navbar {
   width: 100%;
   background-color: #111;
