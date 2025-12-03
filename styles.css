@@ -178,6 +178,16 @@ header {
   width: 100%;
   height: 50%;
 }
+.Upcoming_Header {
+    position: absolute;
+  top: 10px;
+  left: 45%;
+  font-size: 50px;
+  color: #000000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 2;
+}
 h1 {
   position: absolute;
   top: 100px;
