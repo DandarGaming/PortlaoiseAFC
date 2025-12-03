@@ -4,10 +4,17 @@
 table, td {
   border: 1px solid;
 }
-.carousel-img {
-  height: 400px;        /* desired height */
-  object-fit: cover;    /* keeps image cropped nicely */
+
+#demo .carousel-item {
+  height: 350px; /* height of carousel */
 }
+
+#demo .carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover; /* keeps the image cropped nicely */
+}
+
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
