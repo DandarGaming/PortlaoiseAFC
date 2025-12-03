@@ -189,7 +189,7 @@ header {
 }
 
 .navbar a {
-  color: white;
+  color: grey;
   padding: 14px 20px;
   display: block;
   text-decoration: none;
@@ -197,7 +197,7 @@ header {
 }
 
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: #00ff2a;
   color: black;
 }
 
