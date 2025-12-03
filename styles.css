@@ -96,8 +96,8 @@ header {
 }
 
 .contact-images img {
-  width: 300px;
-  max-height: 180px;
+  width: 500px;
+  max-height: 250px;
   object-fit: cover;
   border-radius: 8px;
 }
