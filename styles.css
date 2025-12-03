@@ -184,8 +184,8 @@ header {
   position: absolute;
   top: 75%;
   left: 70%;
-  width: 400px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   z-index: 2;
   margin-top: 20px;	
 }
@@ -193,8 +193,8 @@ header {
   position: absolute;
   top: 75%;
   left: 50%;
-  width: 400px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   z-index: 2;
   margin-top: 20px;	
 }
@@ -202,8 +202,8 @@ header {
   position: absolute;
   top: 75%;
   left: 30%;
-  width: 400px;
-  height: 200px;
+  width: 600px;
+  height: 400px;
   z-index: 2;
   margin-top: 20px;	
 }
