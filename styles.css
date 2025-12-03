@@ -7,15 +7,36 @@ table, td {
 .text-panel {
   background: #ffffff;
   padding: 25px;
-  margin: 120px auto 40px auto; 
+  margin: 120px auto 40px auto; /* pushes it below fixed navbar + centers */
   width: 70%;
   border-radius: 15px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   z-index: 3;
   position: relative;
 }
-
+.text-panel-coaches {
+  background: #53e946;
+  padding: 25px;
+  margin: 120px auto 40px auto; /* pushes it below fixed navbar + centers */
+  width: 70%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  z-index: 3;
+  position: relative;
+}
 .text-panel h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 0;
+  color: #000;
+}
+.text-panel h3 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 0;
+  color: #000;
+}
+.text-panel h4 {
   font-size: 28px;
   text-align: center;
   margin-top: 0;
@@ -27,6 +48,7 @@ table, td {
   line-height: 1.5;
   color: #000;
 }
+
 #demo .carousel-item {
   height: 350px; /* height of carousel */
 }
@@ -42,7 +64,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
     background-color: #66ff69;
   padding: 0;
-  padding-top 50px;
+  padding-top: 50px;
   z-index: 3;
 }
 header {
@@ -143,37 +165,10 @@ header {
   z-index: 2;
   margin-top: 20px;	
 }
-.Image_10 {
-  position: absolute;
-  top: 75%;
-  left: 70%;
-  width: 50px;
-  height: 50px;
-  z-index: 2;
-  margin-top: 20px;	
-}
-.Image_11 {
-  position: absolute;
-  top: 75%;
-  left: 70%;
-  width: 50px;
-  height: 50px;
-  z-index: 2;
-  margin-top: 20px;	
-}
-.Image_12 {
-  position: absolute;
-  top: 75%;
-  left: 70%;
-  width: 50px;
-  height: 50px;
-  z-index: 2;
-  margin-top: 20px;	
-}
 
 .navbar {
   width: 100%;
-  background-color: ##1fe00d;
+  background-color: #1fe00d;
   padding: 0;
   margin: 0;
   display: flex;
@@ -189,7 +184,7 @@ header {
 }
 
 .navbar a {
-  color: grey;
+  color: white;
   padding: 14px 20px;
   display: block;
   text-decoration: none;
@@ -211,7 +206,16 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
-
+.Upcoming_Header {
+    position: absolute;
+  top: 10px;
+  left: 45%;
+  font-size: 50px;
+  color: #000000;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  z-index: 2;
+}
 /* Main column */
 .main {
   flex: 70%;
@@ -227,19 +231,9 @@ header {
   width: 100%;
   height: 50%;
 }
-.Upcoming_Header {
-    position: absolute;
-  top: 10px;
-  left: 45%;
-  font-size: 50px;
-  color: #000000;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  z-index: 2;
-}
 h1 {
   position: absolute;
-  top: 100px;
+  top: 275px;
   left: 45%;
   font-size: 50px;
   color: #000000;
@@ -250,7 +244,7 @@ h1 {
 
 h2 {
   position: absolute;
-  top: 150px;
+  top: 350px;
   left: 45%;
   font-size: 30px;
   color: #000000;
@@ -275,8 +269,7 @@ footer {
   text-align: center;
   left: 40%;
   z-index: 3;
-
-}
+  }
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 700px) {
   .container, .navbar {   
