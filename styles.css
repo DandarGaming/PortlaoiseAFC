@@ -101,6 +101,11 @@ header {
   object-fit: cover;
   border-radius: 8px;
 }
+.contact-images img:nth-child(2) {
+  max-height: 180px; 
+  width: auto;
+  object-fit: cover;
+}
 
 .Image_1 {
   position: absolute;
