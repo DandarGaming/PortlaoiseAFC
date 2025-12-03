@@ -4,7 +4,29 @@
 table, td {
   border: 1px solid;
 }
+.text-panel {
+  background: #ffffff;
+  padding: 25px;
+  margin: 120px auto 40px auto; 
+  width: 70%;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  z-index: 3;
+  position: relative;
+}
 
+.text-panel h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 0;
+  color: #000;
+}
+
+.text-panel p {
+  font-size: 18px;
+  line-height: 1.5;
+  color: #000;
+}
 #demo .carousel-item {
   height: 350px; /* height of carousel */
 }
