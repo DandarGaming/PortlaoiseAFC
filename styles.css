@@ -234,7 +234,7 @@ header {
 }
 h1 {
   position: absolute;
-  top: 50px;
+  top: 175px;
   left: 45%;
   font-size: 50px;
   color: #000000;
@@ -245,7 +245,7 @@ h1 {
 
 h2 {
   position: absolute;
-  top: 100px;
+  top: 225px;
   left: 45%;
   font-size: 30px;
   color: #000000;
