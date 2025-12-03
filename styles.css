@@ -101,37 +101,21 @@ header {
   object-fit: cover;
   border-radius: 8px;
 }
-
-
-
-.Image_4 {
-  position: absolute;
-  top: 75%;
-  left: 30%;
-  width: 800px;
-  height: 600px;
-  z-index: 2;
-  margin-top: 20px;
+.coach-images {
+  display: flex;
+  justify-content: center;   
+  align-items: center;       
+  gap: 20px;                 
+  margin-top: 40px;
 }
 
-.Image_5 {
-  position: absolute;
-  top: 75%;
-  left: 50%;
-  width: 50px;
-  height: 50px;
-  z-index: 2;
-  margin-top: 20px;
+.coach-images img {
+  height: 250px;             
+  width: auto;               
+  object-fit: cover;         
+  border-radius: 10px;
 }
-.Image_6 {
-  position: absolute;
-  top: 75%;
-  left: 70%;
-  width: 50px;
-  height: 50px;
-  z-index: 2;
-  margin-top: 20px;	
-}
+
 .Image_7 {
   position: absolute;
   top: 75%;
